@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+  
+    .card {
+      width: 300px;
+      border-radius: 10px;
+      height: 300px;
+      background-color: green;
+  
+      h1 {
+        color: red;
+      }
+  
+      p {
+        color: yellow;
+        border: 1px solid blue;
+      }
+    }
+  }
